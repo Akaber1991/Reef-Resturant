@@ -1,0 +1,19 @@
+.cardcontact{
+  height: 400px
+}
+.social-icons a i {
+  font-size: 30px;
+  color: rgb(26, 13, 0,0.95);
+}
+.cardcontact{
+  background: rgb(198, 156, 83,0.5);
+}
+p{
+  font-size: 20px;
+}
+body{
+  color: rgb(26, 13, 0,0.95);
+}
+.img-hever{
+  height: 40px;
+}

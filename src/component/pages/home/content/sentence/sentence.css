@@ -1,0 +1,12 @@
+.psen{
+  height: 200px;
+  text-align: center;
+  line-height: 1.8;
+  font-style: oblique;
+  padding: 35px;
+  background-color: rgb(0, 0, 0,0.3);
+  color: rgb(198, 156, 83,0.8) !important;
+  border: 10px double black;
+  border-radius: 10px;
+
+}

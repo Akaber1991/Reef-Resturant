@@ -1,0 +1,7 @@
+ .img-logo{
+  height: 300px;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgb(198, 156, 83,0.2), 0 6px 20px 0 rgb(198, 156, 83,0.2);
+  margin-top: 100px;
+  background-image: radial-gradient(circle,rgb(77, 51, 25,0.9),rgb(135, 89, 44,0.3),rgb(173, 113, 56,0.3));
+}
