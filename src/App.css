@@ -3,10 +3,13 @@
   font-family: 'Varela Round' sans-serif;
 }
 body {
+  /* background: url("./img/wood.jpg") no-repeat ; */
+  /* background-size: cover ; */
   direction: rtl;
   box-sizing: border-box;
   text-align: center;
   font-family: 'Varela Round', sans-serif;
-  background: url("./img/wood.jpg") no-repeat ;
-  background-size: cover ;
+background-color:rgb(153, 102, 51,0.95);
+
+
 }

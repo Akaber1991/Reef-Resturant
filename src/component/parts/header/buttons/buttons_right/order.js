@@ -8,7 +8,7 @@ class Order extends React.Component{
   render(){
     return(
       <div>
-       <Button className="button1" variant="primary" size="lg">
+       <Button className="button1"  size="lg">
         <a  href="#">
          <b>הזמנה דרך האתר</b>
         </a>

@@ -10,7 +10,7 @@ class Header extends React.Component{
   render(){
     return(
     <div className="header">
-      <Navbar />
+      <Navbar data = {this.props.data}/>
       <div className="row">
         <ButtonsRight  />
         <BigLogoImage  />

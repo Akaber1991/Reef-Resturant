@@ -8,7 +8,7 @@ import "./gallery.css";
 
 class Gallery extends React.Component {
   render(){
-    const picture = Photos.map(photo => (
+    const picture = this.props.data.map(photo => (
       <li key={photo.key} className={`photo-item`}>
         <img src={photo.imgsrc}  />
       </li>)

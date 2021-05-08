@@ -5,6 +5,15 @@ import './formContact.css'
 
 
 class Form extends React.Component{
+  constructor() {
+    super();
+    this.state = { data: [] };
+  }
+    componentDidMount() {
+      fetch(`/contactus`)
+        .then(res => res.json())
+        .then(json => this.setState({ data: json }));
+  }
   render() {
     const formComponents = FormItems.map(item =>
         <Formitem

@@ -1,9 +1,8 @@
 
 .player-wrapper {
   position: relative;
-  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  padding: 20%; /* Player ratio: 100 / (1280 / 720) */
   background: rgb(198, 156, 83,0.5);
-  border: 5px solid rgb(26, 13, 0,0.95) !important;
 
 
 }
@@ -12,5 +11,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  width: auto;
+  height: 100px;
 
 }

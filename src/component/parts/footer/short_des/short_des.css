@@ -1,5 +1,5 @@
 .cardcontact{
-  height: 400px
+  height: 320px
 }
 .social-icons a i {
   font-size: 30px;
@@ -16,4 +16,5 @@ body{
 }
 .img-hever{
   height: 40px;
+  width: 40px;
 }

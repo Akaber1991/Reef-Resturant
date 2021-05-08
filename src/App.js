@@ -6,6 +6,8 @@ import Story from "./component/pages/the_story/the_story";
 import Menu from "./component/pages/menu/menu";
 import ContactUs from "./component/pages/contact_us/contact_us";
 import Comments from "./component/pages/comments/comments";
+import ArticalesPage from "./component/pages/Articles/Articles";
+import BusesPage from "./component/pages/Business/Business";
 
 
 class App extends React.Component{
@@ -19,6 +21,8 @@ class App extends React.Component{
          <Route path="/menu" component={Menu} />
          <Route path="/contact" component={ContactUs} />
          <Route path="/comments" component={Comments} />
+         <Route path="/articles" component={ArticalesPage} />
+         <Route path="/bussiness" component={BusesPage} />
 
 
 

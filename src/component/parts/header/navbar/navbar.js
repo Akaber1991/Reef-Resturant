@@ -1,5 +1,5 @@
 import React from 'react';
-import {MenuItems} from './menuitems';
+// import {MenuItems} from './menuitems';
 import './navbar.css';
 
 class Navbar extends React.Component {
@@ -16,7 +16,7 @@ class Navbar extends React.Component {
               <i className={this.state.clicked ? 'fa fa-times' : 'fa fa-ioxhost'}></i>
             </div>
             <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-              {MenuItems.map((item, index) =>{
+              {this.props.data.map((item, index) =>{
                 return (
                   <li className='nav-item' key={index}>
                     <a className={`${item.cName} btn`} href={item.url} >
