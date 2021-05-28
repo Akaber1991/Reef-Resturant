@@ -8,7 +8,7 @@ class ShortDesc extends React.Component{
 
   render(){
     return(
-      <Card className="cardcontact">
+      <Card className="cardcontact container-fluid">
         <Card.Body>
           <Card.Title>{this.props.item.title}</Card.Title>
           <Card.Text>

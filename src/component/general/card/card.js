@@ -13,11 +13,12 @@ class Cards extends React.Component{
            {this.props.item.title}
           </Card.Title>
           <Card.Text className="cardtext">
-           {this.props.item.text}
+           <p>{this.props.item.text}</p>
+           <p>{this.props.item.price}</p>
           </Card.Text>
          </Card.Body>
          <Card.Link className="href">
-          <p><a href= {this.props.item.url}>מעבר לפוסט</a></p>
+          <p><a href= {this.props.item.url}>{this.props.item.urlText}</a></p>
          </Card.Link>
         </Card>
 )}}

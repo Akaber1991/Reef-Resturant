@@ -7,13 +7,25 @@ import Title from '../../general/title/title.js'
 import './menu.css';
 
 class Menu extends React.Component{
+  constructor() {
+    super();
+    this.state = { data: [] };
+  }
+    componentDidMount() {
+      fetch(`/menu`)
+        .then(res => res.json())
+        .then(json => this.setState({ data: json }));
+  }
+
   render(){
+    if(this.state.data.length == 0)
+        return (<p>ops</p>)
     return(
     <div>
-      <Header />
+      <Header data = {this.state.data.Header} />
       <Title title="התפריט" />
-      <ContentMenu />
-      <Footer />
+      <ContentMenu data = {this.state.data.Content} />
+      <Footer data = {this.state.data.Footer} />
     </div>
   )}
 }

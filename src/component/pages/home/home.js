@@ -23,8 +23,8 @@ class Home extends React.Component{
     return(
       <div>
       <Header data = {this.state.data.Header} />
-      <ContentHome data = {this.state.data.Content}/>
-      <Footer data = {this.state.data.Footer}/>
+      <ContentHome data = {this.state.data.Content} />
+      <Footer data = {this.state.data.Footer} />
       </div>
   )}
 }

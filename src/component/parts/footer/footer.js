@@ -8,7 +8,7 @@ class Footer extends React.Component{
   render(){
     return(
       <div>
-      <ShortDesc item={this.props.data} className="container-fluid" />
+      <ShortDesc item={this.props.data} />
       </div>
    )
   }

@@ -9,7 +9,7 @@ import ReactPlayer from 'react-player';
 class VideoHome extends React.Component{
   render(){
     return(
-<div className='player-wrapper container col-6 mx-auto d-block  '>
+<div className='player-wrapper container col-11 mx-auto d-block  '>
 <ReactPlayer className='react-player'
   playing controls={true}
   url={[

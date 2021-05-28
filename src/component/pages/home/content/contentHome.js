@@ -10,12 +10,10 @@ class ContentHome extends React.Component{
   render(){
     return(
       <div>
+      <CarouselHome data={this.props.data.Carousel} />
       <Sentence />
-      <div className="row">
-      <VideoHome className="col-6" />
-      <CarouselHome className="col-6" />
-      </div>
-      <Gallery data={this.props.data} className="container col-12 justify-content-center"/>
+      <VideoHome />
+      <Gallery data={this.props.data.Gallery} />
       </div>
   )}
 }

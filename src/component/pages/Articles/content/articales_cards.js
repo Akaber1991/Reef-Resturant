@@ -5,22 +5,14 @@ import Card  from '../../../general/card/card.js';
 import './articales_cards.css';
 
 class Articalescards extends React.Component{
-  constructor() {
-    super();
-    this.state = { data: [] };
-  }
-    componentDidMount() {
-      fetch(`/articales`)
-        .then(res => res.json())
-        .then(json => this.setState({ data: json }));
-  }
+
   render(){
-    const articales =this.state.data.map(oneitem=>
-    <Card className="card" item={oneitem}/>
+    const articales =this.props.data.map(oneitem=>
+    <Card className="card ml-2" item={oneitem}/>
   );
   return(
 
-      <div className="row mt-2 justify-content-center">
+      <div className="row m-5 justify-content-center">
       {articales}
       </div>
 
