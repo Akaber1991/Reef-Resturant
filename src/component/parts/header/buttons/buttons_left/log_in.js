@@ -9,7 +9,7 @@ class LogIn extends React.Component{
     return(
       <div>
        <Button className="button3" size="lg">
-        <a  href="#">
+        <a  href="logIn">
          <b>log in</b>
         </a>
       </Button>

@@ -15,7 +15,7 @@ class Navbar extends React.Component {
             <div className="menu-icon" onClick={this.handleClick }>
               <i className={this.state.clicked ? 'fa fa-times' : 'fa fa-ioxhost'}></i>
             </div>
-            <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+            <ul className={this.state.clicked ? 'nav-menu active justify-content-center' : 'nav-menu justify-content-center'}>
               {this.props.data.map((item, index) =>{
                 return (
                   <li className='nav-item' key={index}>

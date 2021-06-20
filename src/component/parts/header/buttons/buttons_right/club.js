@@ -9,7 +9,7 @@ class Club extends React.Component{
     return(
       <div>
        <Button className="button2"  size="lg">
-        <a  href="#">
+        <a  href="clubCard">
          <b>Club card</b>
         </a>
       </Button>

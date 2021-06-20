@@ -1,21 +1,17 @@
 import React from 'react';
-import FormItems from './formContactItems.js';
-import Formitem from './formContactItem.js'
+// import FormItems from './formContactItems.js';
+import Formitem from '../../../general/form/formContactItem.js';
+import Title from '../../../general/title/title.js'
 import './formContact.css'
 
 
 class Form extends React.Component{
   constructor() {
     super();
-    this.state = { data: [] };
-  }
-    componentDidMount() {
-      fetch(`/contactus`)
-        .then(res => res.json())
-        .then(json => this.setState({ data: json }));
-  }
+}
   render() {
-    const formComponents = FormItems.map(item =>
+
+    const formComponents = this.props.data.map(item =>
         <Formitem
           cName = {item.cName}
           labelfor = {item.labelfor}
@@ -26,15 +22,15 @@ class Form extends React.Component{
           name = {item.name}
          />)
     return (
-      <form action="#" className="col-5 mx-auto p-5">
-      <h2>שלחו לנו הודעה</h2>
-        {formComponents}
-        <div class="form-group">
-          <label for="msg">
-            <b>הודעה:</b>
+      <form action="#" className="col-5 mx-auto p-5 ">
+      <Title title="שלחו לנו הודעה" className="mb-5" />
+        {formComponents }
+        <div className="form-group">
+          <label  for="msg">
+            <b className="labelformmsg">הודעה:</b>
           </label>
-          <textarea className="form-control" rows="5" id="msg" required></textarea >
-          <button  type="submit" id="submit" class="mb-2 btn btn-secondary">שלח</button>
+          <textarea className="form-control" rows="5" id="msg" required></textarea>
+          <button type="submit" id="submit" className="mt-3 mb-5 float-left btn btn-secondary">שלח</button>
        </div>
       </form>
     );

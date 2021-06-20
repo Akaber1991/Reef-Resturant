@@ -6,7 +6,7 @@ import Footer from '../../parts/footer/footer.js';
 import Title from '../../general/title/title.js'
 import './menu.css';
 
-class Menu extends React.Component{
+class MenuPage extends React.Component{
   constructor() {
     super();
     this.state = { data: [] };
@@ -29,4 +29,4 @@ class Menu extends React.Component{
     </div>
   )}
 }
-export default Menu;
+export default MenuPage;

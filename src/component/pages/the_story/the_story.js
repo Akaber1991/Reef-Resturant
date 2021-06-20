@@ -5,7 +5,7 @@ import Footer from '../../parts/footer/footer.js';
 import Title from '../../general/title/title.js'
 import './the_story.css';
 
-class Story extends React.Component{
+class StoryPage extends React.Component{
   constructor() {
     super();
     this.state = { data: [] };
@@ -32,4 +32,4 @@ class Story extends React.Component{
     </div>
   )}
 }
-export default Story;
+export default StoryPage;

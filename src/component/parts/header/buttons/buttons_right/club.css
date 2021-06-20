@@ -12,6 +12,7 @@
     background: rgb(198, 156, 83,0.5) !important;
     color: #331a00;
     border:5px solid rgb(26, 13, 0,0.95) !important;
+    box-shadow:none!important;
        }
    a{
      color: #331a00 !important;
@@ -19,4 +20,3 @@
    a:hover{
      color: #331a00 !important;
    }
-   

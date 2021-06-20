@@ -45,7 +45,12 @@ li:hover{
   color: #331a00;
   width:155px;
 }
-
+.nav-link:hover{
+  box-shadow:none!important;
+}
+.nav-pills:hover{
+  box-shadow:none!important;
+}
 
 .nav-links-mobile{
   display: none;
@@ -53,9 +58,6 @@ li:hover{
 
 .menu-icon{
   display: none;
-}
-.this.handleClick:hover{
-
 }
 
     @media screen and (max-width:960px){
@@ -90,6 +92,7 @@ li:hover{
     .nav-links:hover{
       /* background-color: #ffcc80; */
       border-radius: 0;
+      box-shadow:none!important;
     }
 
 

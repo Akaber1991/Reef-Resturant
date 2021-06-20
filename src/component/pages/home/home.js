@@ -5,7 +5,7 @@ import ContentHome from './content/contentHome.js';
 import Footer from '../../parts/footer/footer.js';
 import './home.css';
 
-class Home extends React.Component{
+class HomePage extends React.Component{
   constructor() {
     super();
     this.state = { data: [] };
@@ -28,4 +28,4 @@ class Home extends React.Component{
       </div>
   )}
 }
-export default Home;
+export default HomePage;

@@ -9,7 +9,7 @@ class SignUp extends React.Component{
     return(
       <div>
        <Button className="button4"  size="lg">
-        <a  href="#">
+        <a  href="signUp">
          <b>Sign Up</b>
         </a>
       </Button>

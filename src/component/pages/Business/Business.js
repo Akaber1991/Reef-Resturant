@@ -5,7 +5,7 @@ import Businesscards from './content/Bus_cards.js';
 import Footer from '../../parts/footer/footer.js';
 import './Business.css';
 
-class BusesPage extends React.Component{
+class BusinessPage extends React.Component{
   constructor() {
     super();
     this.state = { data: [] };
@@ -27,4 +27,4 @@ class BusesPage extends React.Component{
       </div>
   )}
 }
-export default BusesPage;
+export default BusinessPage;

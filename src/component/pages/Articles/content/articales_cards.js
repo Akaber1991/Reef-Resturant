@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import Articales from './cards_json';
 import Card  from '../../../general/card/card.js';
 import './articales_cards.css';
 
